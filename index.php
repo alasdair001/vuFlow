@@ -11,7 +11,7 @@
 		
 		Languages Used:
 		
-		- HTML, CSS, JS, PHP, MSQL	
+		- PHP
 		
 		
 		
@@ -20,14 +20,6 @@
 	*/	
 	
 	
+	
 
 ?>
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>test</title>
-	</head>
-	
-	<body>
-	</body>
-</html>
