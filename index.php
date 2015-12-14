@@ -20,6 +20,8 @@
 	*/	
 	
 	
+	// Shall we use ?pid= ?id
+	// Need to document this D:
 	
 
 ?>
