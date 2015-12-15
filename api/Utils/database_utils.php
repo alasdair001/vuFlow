@@ -1,21 +1,10 @@
 <?php
 
 	/*
-		
-		
-		File 2 - PHP
-		by Alasdair Gallacher
-		
-		MySQL Server Utils...
-		
-		
-		Languages Used:
-		
-		- PHP, MSQL	
-		
-		
-		
-		Please annotate your code!
+
+		Name: database_utils
+		Description: Used to connect and run set queries from database
+		Author: Breeze
 		
 	*/	
 
