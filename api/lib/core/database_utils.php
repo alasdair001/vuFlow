@@ -12,24 +12,22 @@
 	$MYSQL_USER = ""; // Define the user for the MySQL server
 	$MYSQL_PASSWORD = ""; // Define the user's password for the MySQL server
 	$MYSQL_DATABASE = ""; // Define the database for the MySQL server 
-	
-	$LOGIN_TABLE = "logins";
 
 	function db_connect() // Create a fucntion to connect to MySQL database
 	{
 		$link = mysql_connect($MYSQL_HOST, $MYSQL_USER, $MYSQL_PASSWORD); // Connect to MySQL server, using details defined
 		if(!$link)
 		{
-			return False;
+			return false;
 		}
 		
 		$db = mysql_select_db($MYSQL_DATABASE); // Select MySQL database, using details defined
 		if(!$db)
 		{
-			return False;
+			return false;
 		}
 		
-		return True;
+		return true;
 		
 	}
 	
@@ -38,7 +36,5 @@
 	{
 		mysql_close(); // Close MySQL connection
 	}
-
-	
 	
 ?>
