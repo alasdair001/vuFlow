@@ -1,0 +1,41 @@
+html, header, body
+{
+	margin: 0;
+	padding: 0;
+	
+	font-family: "Arial";
+	color: #424242;
+	-webkit-font-smoothing: antialiased;
+}
+
+.header
+{
+	display: block;
+	position: fixed;
+	left: 0;
+	right: 0;
+	background-color: #cdcdcd;
+}
+
+.header ul
+{
+	display: block;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.header ul li
+{
+	display: inline-block;
+	margin-right: 2px;
+	background-color: #222222;
+	color: #ffffff;
+	text-align: center;
+	line-height: 34px;
+	padding: 10px;
+	height: 34px;
+	box-shadow: 2px 0px 0px #db3a3a;
+	-webkit-box-shadow: 2px 0px 0px #db3a3a;
+	-moz-box-shadow: 2px 0px 0px #db3a3a;
+}
