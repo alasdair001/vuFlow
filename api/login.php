@@ -89,5 +89,5 @@
 		setcookie("session_token", $session_token, time() + 300); // Set session token
 	}
 	
-	pushState($session_token, true); // Push session toeken as response
+	pushState($session_token, true); // Push session token as response
 ?>
