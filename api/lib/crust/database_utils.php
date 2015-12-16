@@ -8,8 +8,9 @@
 		
 	*/	
 	
-	$LOGIN_TABLE = "`logins`";
-	$SESSION_TABLE = "`sessions`";
+	$LOGIN_TABLE = "`logins`"; // Create reference for logins table
+	$SESSION_TABLE = "`sessions`"; // Create reference for sessions table
+	
 	
 	function getUserByIdentifier($identifier)
 	{
