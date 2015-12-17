@@ -17,3 +17,4 @@
 			include("lib/".str_replace(".", "/", $libraries).".php");
 		}
 	}
+?>
